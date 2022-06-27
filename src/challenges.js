@@ -10,9 +10,13 @@ if (parametro1 === true && parametro2 === true) {
 
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+function calcArea(base,height ){
+let calcArea ;
+calcArea = (base * height)/2;
+return calcArea;
 }
+
+
 
 // Desafio 3
 function splitSentence() {
