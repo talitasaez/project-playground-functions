@@ -47,9 +47,12 @@ return ultimo + ", " + primeiro
 
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
-}
+function footballPoints(w, t) {
+  return (w *3) + t;
+  }
+console.log(footballPoints(14,8))
+
+
 
 // Desafio 6
 function highestCount() {
