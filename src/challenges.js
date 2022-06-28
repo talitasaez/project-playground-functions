@@ -20,10 +20,12 @@ function calcArea(base, height) {
 
 // Desafio 3
 function splitSentence(frase) {
-  let divideFrase;
-  divideFrase.push - frase.split(" ")
-  return divideFrase;
+  let resultado;
+   resultado = frase.split(" ");
+  return resultado;
+
 }
+
 
 
 
