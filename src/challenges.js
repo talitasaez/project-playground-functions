@@ -51,13 +51,33 @@ function footballPoints(w, t) {
   return (w *3) + t;
   }
 console.log(footballPoints(14,8))
-
-
-
+ 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function maiorNumero (array){
+let maior = array[0];
+for (let index = 0; index < array.length; index +=1){
+  if (array[index] > maior){
+    maior = array[index];
+  }
 }
+return maior;
+
+}
+
+function highestCount(array) {
+  let maior = maiorNumero (array) 
+  let count = 0;
+
+  for (let index = 0; index < array.length; index += 1){
+    if (maior === array[index]){
+      count +=1;
+    }
+
+  }
+ return count;
+}
+
+
 
 // Desafio 7
 function catAndMouse() {
